@@ -32,24 +32,37 @@
             text-align: center;
             margin-top: 10px;
         }
+        
         /* Stilizacija za horizontalnu listu */
-    .filter-list {
-      /*display: flex;
-      overflow-x: auto;
-      margin-bottom: 20px;
-      padding: 10px 0;*/
-      
+    .filter-list1 {
       display: flex;
-      overflow-x: auto;
-      padding: 10px 0;
-      position: fixed;  /* Fiksira filter na vrhu */
-      top: 0;  /* Na vrhu ekrana */
-      left: 0;
-      right: 0;
-      background-color: #fff; /* Pozadina filtera */
-      z-index: 1000; /* Povećavamo z-index kako bi bio iznad ostalog sadržaja */
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Dodajemo senku ispod filtera */
+    overflow-x: auto;
+    padding: 10px 0;
+    position: fixed;  /* Fiksira filter na vrhu */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Pozadina filtera */
+    z-index: 1000; /* Povećavamo z-index kako bi bio iznad ostalog sadržaja */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Dodajemo senku ispod filtera */
+    flex-shrink: 0; /* Obezbeđuje da traka ne bude stegnuta */
+    height:135px;
     }
+    
+    .filter-list {
+      display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    position: fixed;  /* Fiksira filter na vrhu */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff; /* Pozadina filtera */
+    z-index: 1000; /* Povećavamo z-index kako bi bio iznad ostalog sadržaja */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Dodajemo senku ispod filtera */
+    flex-shrink: 0; /* Obezbeđuje da traka ne bude stegnuta */
+    }
+    
     .filter-item {
       margin: 0 15px;
       text-align: center;
@@ -94,6 +107,7 @@
     .body {
             margin: 0;
             font-family: Arial, sans-serif;
+            margin-top: 125px;
         }
         .header {
             background-color: #2e8b57;
@@ -104,11 +118,24 @@
         
         
     #map {
-  height: 100%;         /* Fiksna visina */
-  width: 100%;           /* Ili fiksna širina po potrebi */
-  overflow: hidden;      /* Sprečava prelivanje */
-}    
-        
+        height: 100%;         /* Fiksna visina */
+        width: 100%;           /* Ili fiksna širina po potrebi */
+        overflow: hidden;      /* Sprečava prelivanje */
+    }
+    
+    /* Traka koja se dodaje na dno diva */
+    .drag-bar {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20vw;  /* 20% širine ekrana */
+        height: 10px;
+        background-color: #333;
+        cursor: ns-resize;
+        border-radius: 5px;
+        z-index:1000;
+    }
     
     </style>
 </head>
@@ -119,17 +146,20 @@ include "database.php";
      $sql = "SELECT * FROM vw_maplocationtypes_get ORDER BY ordering";
      $result = $conn-> query($sql);
 ?>
-    
-<div id="filterList" class="filter-list" style="max-height:125px;">
-    <?php while($red = $result->fetch_assoc()): ?>
-        <div class="filter-item">
-            <img id="<?php echo htmlspecialchars($red['image_Id']); ?>" src="<?php echo htmlspecialchars($red['icon_path']); ?>" alt="Kategorija">
-            <p id="nameId"><?php echo htmlspecialchars($red['name']); ?></p>
-            <p id="nameEngId" style="display:none;"><?php echo htmlspecialchars($red['name_eng']); ?></p>
-            <p id="typeId" style="display:none;"><?php echo htmlspecialchars($red['type']); ?></p>
-            <p id="categoryId" style="display:none;"><?php echo htmlspecialchars($red['id']); ?></p>
-        </div>
-    <?php endwhile; ?>
+ 
+<div id="filterList1" class="filter-list1" style="max-height:135px;"> 
+    <div id="filterList" class="filter-list" style="max-height:125px;">
+        <?php while($red = $result->fetch_assoc()): ?>
+            <div class="filter-item">
+                <img id="<?php echo htmlspecialchars($red['image_Id']); ?>" src="<?php echo htmlspecialchars($red['icon_path']); ?>" alt="Kategorija">
+                <p id="nameId"><?php echo htmlspecialchars($red['name']); ?></p>
+                <p id="nameEngId" style="display:none;"><?php echo htmlspecialchars($red['name_eng']); ?></p>
+                <p id="typeId" style="display:none;"><?php echo htmlspecialchars($red['type']); ?></p>
+                <p id="categoryId" style="display:none;"><?php echo htmlspecialchars($red['id']); ?></p>
+            </div>
+        <?php endwhile; ?>
+    </div>
+    <div class="drag-bar"></div>
 </div>
 
 <?php
@@ -271,6 +301,90 @@ $conn->close();
     const locationId = params.get('locationId');
     
     //showAllLocations(locationId);
+    
+    const draggableDiv = document.getElementById('filterList');
+    const draggableDiv1 = document.getElementById('filterList1');
+
+        let startY;
+        let startHeight;
+        let isDragging = false;
+
+        // Promenjena minimalna visina na 20px
+        let minHeight = 0;  // minimalna visina
+        let maxHeight = 135;  // maksimalna visina
+
+        // Funkcija koja upravlja povlačenjem za miš
+        function onMouseDown(e) {
+            startY = e.clientY;
+            startHeight = parseInt(window.getComputedStyle(draggableDiv).height);
+            isDragging = true;
+
+            document.body.style.userSelect = 'none';
+        }
+
+        // Funkcija koja upravlja povlačenjem za dodir
+        function onTouchStart(e) {
+            startY = e.touches[0].clientY;
+            startHeight = parseInt(window.getComputedStyle(draggableDiv).height);
+            isDragging = true;
+
+            document.body.style.userSelect = 'none';
+        }
+
+        // Funkcija koja prati pomeranje miša/dodira
+        function onMouseMove(e) {
+            if (!isDragging) return;
+
+            const dy = e.clientY - startY;
+            let newHeight = startHeight + dy;
+
+            // Ograničavanje visine
+            if (newHeight < minHeight) newHeight = minHeight;
+            if (newHeight > maxHeight) newHeight = maxHeight;
+
+            draggableDiv.style.height = newHeight + 'px';
+            draggableDiv1.style.height = newHeight + 'px';
+        }
+
+        // Funkcija koja prati pomeranje dodira
+        function onTouchMove(e) {
+            if (!isDragging) return;
+
+            const dy = e.touches[0].clientY - startY;
+            let newHeight = startHeight + dy;
+
+            // Ograničavanje visine
+            if (newHeight < minHeight) newHeight = minHeight;
+            if (newHeight > maxHeight) newHeight = maxHeight;
+
+            draggableDiv.style.height = newHeight + 'px';
+            draggableDiv1.style.height = newHeight + 'px';
+        }
+
+        // Funkcija koja završava povlačenje
+        function onMouseUp() {
+            isDragging = false;
+            document.body.style.userSelect = '';
+        }
+
+        // Funkcija koja završava povlačenje za dodir
+        function onTouchEnd() {
+            isDragging = false;
+            document.body.style.userSelect = '';
+        }
+
+        // Event listeneri za miš
+        draggableDiv.addEventListener('mousedown', onMouseDown);
+        draggableDiv1.addEventListener('mousedown', onMouseDown);
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
+
+        // Event listeneri za mobilne uređaje
+        draggableDiv.addEventListener('touchstart', onTouchStart);
+        draggableDiv1.addEventListener('touchstart', onTouchStart);
+        document.addEventListener('touchmove', onTouchMove);
+        document.addEventListener('touchend', onTouchEnd);
+    
  
     // Funkcija koja prikazuje alert sa nazivom kategorije
     document.querySelectorAll('.filter-item').forEach(item => {
