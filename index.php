@@ -36,7 +36,8 @@
 			<!-- Banner -->
 			<!-- Note: To show a background image, set the "data-bg" attribute below
 			to the full filename of your image. This is used in each section to set
-			the background image.-->
+			the background image.
+			Test small changes -->
 			<?php
 				include "database.php";
 				$sql = "SELECT * FROM vw_citiesphoto_get WHERE city_id = 1";
