@@ -1,0 +1,306 @@
+[26-Apr-2025 20:24:31 Europe/Belgrade] PHP Parse error:  syntax error, unexpected identifier "path", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 13
+[26-Apr-2025 20:28:49 Europe/Belgrade] PHP Parse error:  syntax error, unexpected identifier "path", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 13
+[26-Apr-2025 20:39:21 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'gisitrs_turista.slike' doesn't exist in /home/gisitrs/public_html/Turizam/index.php:7
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/index.php(7): mysqli->query()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/index.php on line 7
+[26-Apr-2025 20:44:51 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 20:45:49 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 20:46:43 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 20:49:05 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 20:50:30 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/index.php on line 57
+[26-Apr-2025 20:50:34 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/index.php on line 57
+[26-Apr-2025 21:01:26 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 21:02:20 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 21:03:53 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:04:24 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:07:41 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM vw_locations_get' at line 1 in /home/gisitrs/public_html/Turizam/components/list-of-locations.php:4
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/components/list-of-locations.php(4): mysqli->query()
+#1 /home/gisitrs/public_html/Turizam/index.php(100): include('/home/gisitrs/p...')
+#2 {main}
+  thrown in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 4
+[26-Apr-2025 21:08:32 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quote mark, expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:10:52 Europe/Belgrade] PHP Parse error:  syntax error, unexpected token "echo" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:11:18 Europe/Belgrade] PHP Parse error:  syntax error, unexpected token "echo" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:11:46 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 13
+[26-Apr-2025 21:12:19 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:13:15 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:14:07 Europe/Belgrade] PHP Parse error:  syntax error, unexpected string content "", expecting "-" or identifier or variable or number in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 10
+[26-Apr-2025 21:16:00 Europe/Belgrade] PHP Parse error:  syntax error, unexpected double-quoted string " class=", expecting "," or ";" in /home/gisitrs/public_html/Turizam/components/list-of-locations.php on line 18
+[26-Apr-2025 21:41:53 Europe/Belgrade] PHP Parse error:  syntax error, unexpected token "?" in /home/gisitrs/public_html/Turizam/index.php on line 51
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:04:10 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:09:08 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[02-May-2025 22:11:24 Europe/Belgrade] PHP Warning:  Undefined array key "image_id" in /home/gisitrs/public_html/Turizam/index.php on line 93
+[03-May-2025 22:59:02 Europe/Belgrade] PHP Warning:  Undefined variable $servername in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:02 Europe/Belgrade] PHP Warning:  Undefined variable $username in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:02 Europe/Belgrade] PHP Warning:  Undefined variable $password in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:02 Europe/Belgrade] PHP Warning:  Undefined variable $dbname in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:02 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/gisitrs/public_html/Turizam/Map.php:175
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/Map.php(175): mysqli->__construct()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:16 Europe/Belgrade] PHP Warning:  Undefined variable $servername in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:16 Europe/Belgrade] PHP Warning:  Undefined variable $username in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:16 Europe/Belgrade] PHP Warning:  Undefined variable $password in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:16 Europe/Belgrade] PHP Warning:  Undefined variable $dbname in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 22:59:16 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/gisitrs/public_html/Turizam/Map.php:175
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/Map.php(175): mysqli->__construct()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:00:10 Europe/Belgrade] PHP Warning:  Undefined variable $servername in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:00:10 Europe/Belgrade] PHP Warning:  Undefined variable $username in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:00:10 Europe/Belgrade] PHP Warning:  Undefined variable $password in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:00:10 Europe/Belgrade] PHP Warning:  Undefined variable $dbname in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:00:10 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/gisitrs/public_html/Turizam/Map.php:175
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/Map.php(175): mysqli->__construct()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:01:02 Europe/Belgrade] PHP Warning:  Undefined variable $servername in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:01:02 Europe/Belgrade] PHP Warning:  Undefined variable $username in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:01:02 Europe/Belgrade] PHP Warning:  Undefined variable $password in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:01:02 Europe/Belgrade] PHP Warning:  Undefined variable $dbname in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:01:02 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/gisitrs/public_html/Turizam/Map.php:175
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/Map.php(175): mysqli->__construct()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:04:35 Europe/Belgrade] PHP Warning:  Undefined variable $coordinates in /home/gisitrs/public_html/Turizam/Map.php on line 209
+[03-May-2025 23:05:00 Europe/Belgrade] PHP Warning:  Undefined variable $servername in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:05:00 Europe/Belgrade] PHP Warning:  Undefined variable $username in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:05:00 Europe/Belgrade] PHP Warning:  Undefined variable $password in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:05:00 Europe/Belgrade] PHP Warning:  Undefined variable $dbname in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[03-May-2025 23:05:00 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/gisitrs/public_html/Turizam/Map.php:175
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/Map.php(175): mysqli->__construct()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/Map.php on line 175
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "id" in /home/gisitrs/public_html/Turizam/Map.php on line 193
+[04-May-2025 12:51:21 Europe/Belgrade] PHP Warning:  Undefined array key "name" in /home/gisitrs/public_html/Turizam/Map.php on line 194
+[12-May-2025 22:03:18 Europe/Belgrade] PHP Warning:  Trying to access array offset on value of type null in /home/gisitrs/public_html/Turizam/locationDetails.php on line 64
+[12-May-2025 22:03:18 Europe/Belgrade] PHP Warning:  Trying to access array offset on value of type null in /home/gisitrs/public_html/Turizam/locationDetails.php on line 65
+[12-May-2025 22:04:05 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gisitrs/public_html/Turizam/locationDetails.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/gisitrs/public_html/Turizam/locationDetails.php on line 64
+[12-May-2025 22:05:19 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in /home/gisitrs/public_html/Turizam/locationDetails.php:70
+Stack trace:
+#0 {main}
+  thrown in /home/gisitrs/public_html/Turizam/locationDetails.php on line 70
+[12-May-2025 22:11:10 Europe/Belgrade] PHP Warning:  Undefined array key "description_eng" in /home/gisitrs/public_html/Turizam/index.php on line 53
+[12-May-2025 22:34:48 Europe/Belgrade] PHP Warning:  Undefined variable $result in /home/gisitrs/public_html/Turizam/locationDetails.php on line 52
+[12-May-2025 22:34:48 Europe/Belgrade] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/gisitrs/public_html/Turizam/locationDetails.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/gisitrs/public_html/Turizam/locationDetails.php on line 52
+[14-May-2025 20:52:47 Europe/Belgrade] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/gisitrs/public_html/Turizam/locationDetails.php:52
+Stack trace:
+#0 /home/gisitrs/public_html/Turizam/locationDetails.php(52): mysqli->query()
+#1 {main}
+  thrown in /home/gisitrs/public_html/Turizam/locationDetails.php on line 52
