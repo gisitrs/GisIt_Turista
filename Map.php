@@ -120,7 +120,7 @@ include "database.php";
      $result = $conn-> query($sql);
 ?>
     
-<div id="filterList" class="filter-list">
+<div id="filterList" class="filter-list" style="max-height:125px;">
     <?php while($red = $result->fetch_assoc()): ?>
         <div class="filter-item">
             <img id="<?php echo htmlspecialchars($red['image_Id']); ?>" src="<?php echo htmlspecialchars($red['icon_path']); ?>" alt="Kategorija">
